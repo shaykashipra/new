@@ -10,13 +10,12 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-  private Button min;
-  private EditText et1,et2;
-  private TextView tv;
+    private Button min;
+    private EditText et1, et2;
+    private TextView tv;
 
 
     private Button add;
-  
 
 
     @Override
@@ -24,23 +23,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        min=findViewById(R.id.sub);
+        min = findViewById(R.id.sub);
 
-        add=findViewById(R.id.add);
-        et1=findViewById(R.id.editTextNumberDecimal);
-        et2=findViewById(R.id.editTextNumberDecimal2);
-        tv=findViewById(R.id.textView);
+        add = findViewById(R.id.add);
+        et1 = findViewById(R.id.editTextNumberDecimal);
+        et2 = findViewById(R.id.editTextNumberDecimal2);
+        tv = findViewById(R.id.textView);
 
 
         min.setOnClickListener(new View.OnClickListener() {
-        @Override
+            @Override
             public void onClick(View v) {
-            float num1 = Integer.parseInt(et1.getText().toString());
-            float num2 = Integer.parseInt(et2.getText().toString());
-            float num3 = num1 - num2;
-            tv.setText(String.valueOf(num3));
+                float num1 = Integer.parseInt(et1.getText().toString());
+                float num2 = Integer.parseInt(et2.getText().toString());
+                float num3 = num1 - num2;
+                tv.setText(String.valueOf(num3));
 
-        } });
+            }
+        });
+
 
         add.setOnClickListener(new View.OnClickListener() {
 
@@ -52,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
                 float num3 = num1 + num2;
                 tv.setText(String.valueOf(num3));
 
+            }
+        });
 
-            }});
+
     }
 }
