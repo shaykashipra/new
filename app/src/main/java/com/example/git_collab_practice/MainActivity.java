@@ -35,24 +35,24 @@ public class MainActivity extends AppCompatActivity {
         min.setOnClickListener(new View.OnClickListener() {
         @Override
             public void onClick(View v) {
-                float num1=Integer.parseInt(et1.getText().toString());
-                float num2=Integer.parseInt(et2.getText().toString());
-                              float num3=num1-num2;
-                tv.setText(String.valueOf(num3));
-              
-            });
-        }
+            float num1 = Integer.parseInt(et1.getText().toString());
+            float num2 = Integer.parseInt(et2.getText().toString());
+            float num3 = num1 - num2;
+            tv.setText(String.valueOf(num3));
+
+        } });
+
         add.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                float num1=Integer.parseInt(et1.getText().toString());
-                float num2=Integer.parseInt(et2.getText().toString());
+                float num1 = Integer.parseInt(et1.getText().toString());
+                float num2 = Integer.parseInt(et2.getText().toString());
 
-                float num3=num1+num2;
+                float num3 = num1 + num2;
                 tv.setText(String.valueOf(num3));
 
-            
-        });
+
+            }});
     }
 }
