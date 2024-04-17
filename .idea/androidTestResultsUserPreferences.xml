@@ -4,12 +4,15 @@
     <option name="androidTestResultsTableState">
       <map>
         <entry key="-1697301286">
+
+
           <value>
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
                 <map>
                   <entry key="Duration" value="90" />
                   <entry key="Google Pixel 8" value="120" />
+
                   <entry key="Tests" value="360" />
                 </map>
               </option>
@@ -17,12 +20,14 @@
           </value>
         </entry>
         <entry key="1416813064">
+
           <value>
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
                 <map>
                   <entry key="Duration" value="90" />
                   <entry key="Google Pixel 8" value="120" />
+
                   <entry key="Tests" value="360" />
                 </map>
               </option>
